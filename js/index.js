@@ -11,9 +11,9 @@ require('bootstrap')
 
 const ListMax = 10
 
-var endpoint = 'wss://rinkeby.eth.6120.eu/ws'
-var hostUrl = 'https://6120.eu'
-var urlLabel = 'Rinkeby/6120'
+var endpoint = 'http://rpc.nftmall.cloud'
+var hostUrl = 'http://rpc.nftmall.cloud'
+var urlLabel = 'CADTchain'
 
 var provider = new web3.providers.WebsocketProvider(endpoint)
 web3.setProvider(provider)
